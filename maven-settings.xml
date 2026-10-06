@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 本环境对 repo.maven.apache.org 的 Java TLS 连接做了拦截，改用同一 CDN 的 repo1.maven.org -->
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0">
+  <mirrors>
+    <mirror>
+      <id>central-repo1</id>
+      <name>Maven Central (repo1)</name>
+      <mirrorOf>central</mirrorOf>
+      <url>https://repo1.maven.org/maven2</url>
+    </mirror>
+  </mirrors>
+</settings>

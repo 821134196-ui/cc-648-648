@@ -13,3 +13,7 @@ build/
 轨迹/
 录屏/
 视频/
+
+# 运行时数据与前端构建产物
+backend/data/
+backend/src/main/resources/META-INF/resources/
